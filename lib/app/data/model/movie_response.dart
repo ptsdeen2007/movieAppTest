@@ -1,6 +1,3 @@
-// To parse this JSON data, do
-//
-//     final movieResponse = movieResponseFromJson(jsonString);
 
 import 'dart:convert';
 
@@ -135,13 +132,6 @@ class Result {
     "vote_count": voteCount,
   };
 }
-
-enum OriginalLanguage { EN, ES }
-
-final originalLanguageValues = EnumValues({
-  "en": OriginalLanguage.EN,
-  "es": OriginalLanguage.ES
-});
 
 class EnumValues<T> {
   Map<String, T> map;
